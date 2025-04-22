@@ -30,13 +30,13 @@ composer install
 ```bash
 php artisan key:generate
 ```
-## 5. Run Database Migrations
-```bash
-php artisan migrate
-```
-## 6. Publish Sanctum Configuration
+## 5. Publish Sanctum Configuration
 ```bash
 php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+```
+## 6. Run Database Migrations
+```bash
+php artisan migrate
 ```
 ## 7. Seed the Database
 ```bash
